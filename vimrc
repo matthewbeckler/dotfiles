@@ -16,11 +16,6 @@ set incsearch
 map <F5> :set hls!<bar>set hls?<CR>
 map <F6> :set paste!<bar>set paste?<CR>
 
-let &t_ti.="\e[1 q"
-let &t_SI.="\e[5 q"
-let &t_EI.="\e[1 q"
-let &t_te.="\e[0 q"
-
 syntax enable
 set background=dark
 
