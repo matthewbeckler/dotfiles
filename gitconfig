@@ -1,5 +1,11 @@
 [user]
-	email = matthew.beckler@gmail.com
-	name = Matthew Beckler
+    email = matthew.beckler@gmail.com
+    name = Matthew Beckler
 [push]
-	default = simple
+    default = simple
+[transfer] 
+    fsckobjects = true 
+[fetch] 
+    fsckobjects = true 
+[receive] 
+    fsckObjects = true
