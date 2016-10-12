@@ -9,4 +9,4 @@ Uncomment the force_color_prompt=yes line
 GIT_PROMPT_ONLY_IN_REPO=1
 source ~/.bash-git-prompt/gitprompt.sh
 
-
+export PIP_REQUIRE_VIRTUALENV=true 
