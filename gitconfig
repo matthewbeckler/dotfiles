@@ -1,11 +1,20 @@
 [user]
     email = matthew.beckler@gmail.com
     name = Matthew Beckler
+[alias]
+    one = log --pretty=format:'%C(auto)%h [%ai]%d%C(reset) %s' --graph
+    wne = log --pretty=format:'%C(auto)%h [%ai %ae]%d%C(reset) %s' --graph
+    stat = status --short --branch --untracked-files=normal
 [push]
     default = simple
-[transfer] 
-    fsckobjects = true 
-[fetch] 
-    fsckobjects = true 
-[receive] 
+[transfer]
+    fsckobjects = true
+[fetch]
+    fsckobjects = true
+    prune = true
+[receive]
     fsckObjects = true
+[core]
+    autocrlf = input
+[submodule]
+    recurse = true
